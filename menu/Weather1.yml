@@ -1,0 +1,79 @@
+#########################################
+#         МЕНЮ ПОГОДЫ И ВРЕМЕНИ         #
+#########################################
+
+menu-settings:
+  name: '&b☀ Меню Погоды и Времени'
+  rows: 3
+  auto-refresh: 5
+
+
+#########################################
+#               КНОПКИ                 #
+#########################################
+
+night:
+  POSITION-X: 3
+  POSITION-Y: 2
+  MATERIAL: black_wool
+  NAME: '&9Ночь'
+  LORE:
+    - ''
+    - '&7Устанавливает ночное время.'
+    - ''
+  ACTIONS:
+    - 'console: clone -82 -60 52 -82 -60 52 -90 -60 35'
+    - 'open: weather1.yml'
+
+day:
+  POSITION-X: 4
+  POSITION-Y: 2
+  MATERIAL: white_wool
+  NAME: '&cДень'
+  LORE:
+    - ''
+    - '&7Устанавливает дневное время.'
+    - ''
+  ACTIONS:
+    - 'console: clone -84 -60 52 -84 -60 52 -90 -60 35'
+    - 'open: weather1.yml'
+
+clear-weather:
+  POSITION-X: 6
+  POSITION-Y: 2
+  MATERIAL: light_blue_wool
+  NAME: '&6Ясная Погода'
+  LORE:
+    - ''
+    - '&7Делает погоду ясной.'
+    - ''
+  ACTIONS:
+    - 'console: clone -84 -60 50 -84 -60 50 -90 -60 33'
+    - 'open: weather1.yml'
+storm-weather:
+  POSITION-X: 7
+  POSITION-Y: 2
+  MATERIAL: gray_wool
+  NAME: '&3Гроза'
+  LORE:
+    - ''
+    - '&7Вызывает грозу.'
+    - ''
+  ACTIONS:
+    - 'console: clone -82 -60 50 -82 -60 50 -90 -60 33'
+    - ''
+    - 'open: weather1.yml'
+#########################################
+#               НАЗАД                  #
+#########################################
+
+back-button:
+  POSITION-X: 5
+  POSITION-Y: 3
+  MATERIAL: barrier
+  NAME: '&c⏪ Назад'
+  LORE:
+    - ''
+    - '&7Вернуться в главное меню.'
+  ACTIONS:
+    - 'open: Menu.yml'

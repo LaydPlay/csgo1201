@@ -1,0 +1,135 @@
+menu-settings:
+  name: '&b&lГлавное меню'
+  rows: 3
+  commands:
+    - 'teamselect'
+  auto-refresh: 3
+  open-actions:
+
+######################
+#+     ИКОНКИ       +#
+######################
+
+blue-team:
+  MATERIAL: blue_wool
+  POSITION-X: 1
+  POSITION-Y: 2
+  NAME: '&9&lСиняя команда'
+  LORE:
+    - '&7Нажми, чтобы присоединиться к'
+    - '&9Синей команде'
+  ACTIONS:
+    - 'console: scoreboard players reset {player} Blue'
+    - 'console: scoreboard players reset {player} Red'
+    - 'console: scoreboard players reset {player} Green'
+    - 'console: scoreboard players reset {player} Yellow'
+    - 'console: scoreboard players set {player} Blue 1'
+    - 'fill 0 -62 87 -6 -62 87 minecraft:redstone_block'
+
+red-team:
+  MATERIAL: red_wool
+  POSITION-X: 2
+  POSITION-Y: 2
+  NAME: '&c&lКрасная команда'
+  LORE:
+    - '&7Нажми, чтобы присоединиться к'
+    - '&cКрасной команде'
+  ACTIONS:
+    - 'console: scoreboard players reset {player} Blue'
+    - 'console: scoreboard players reset {player} Red'
+    - 'console: scoreboard players reset {player} Green'
+    - 'console: scoreboard players reset {player} Yellow'
+    - 'console: scoreboard players set {player} Red 1'
+    - 'fill 0 -62 87 -6 -62 87 minecraft:redstone_block'
+
+
+green-team:
+  MATERIAL: lime_wool
+  POSITION-X: 8
+  POSITION-Y: 2
+  NAME: '&a&lЗелёная команда'
+  LORE:
+    - '&7Нажми, чтобы присоединиться к'
+    - '&aЗелёной команде'
+  ACTIONS:
+    - 'console: scoreboard players reset {player} Blue'
+    - 'console: scoreboard players reset {player} Red'
+    - 'console: scoreboard players reset {player} Green'
+    - 'console: scoreboard players reset {player} Yellow'
+    - 'console: scoreboard players set {player} Green 1'
+    - 'fill 0 -62 87 -6 -62 87 minecraft:redstone_block'
+
+
+yellow-team:
+  MATERIAL: yellow_wool
+  POSITION-X: 9
+  POSITION-Y: 2
+  NAME: '&e&lЖёлтая команда'
+  LORE:
+    - '&7Нажми, чтобы присоединиться к'
+    - '&eЖёлтой команде'
+  ACTIONS:
+    - 'console: scoreboard players reset {player} Blue'
+    - 'console: scoreboard players reset {player} Red'
+    - 'console: scoreboard players reset {player} Green'
+    - 'console: scoreboard players reset {player} Yellow'
+    - 'console: scoreboard players set {player} Yellow 1'
+    - 'fill 0 -62 87 -6 -62 87 minecraft:redstone_block'
+
+Weather:
+  MATERIAL: repeater
+  POSITION-X: 6
+  POSITION-Y: 2
+  NAME: '&8&lНастройки мира'
+  LORE:
+    - '&7Тык'
+  ACTIONS:
+    - 'open: Weather1.yml'
+    
+Classes:
+  MATERIAL: chest
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: '&6&lВыбор класса'
+  LORE:
+    - '&7Выбери карту'
+  ACTIONS:
+    - 'open: classes.yml'
+    
+Tp1:
+  MATERIAL: crafting_table
+  POSITION-X: 4
+  POSITION-Y: 3
+  NAME: '&6&lОружейная'
+  LORE:
+    - '&6Нажми для телепорта'
+  ACTIONS:
+    - 'tp @s 37.78 -59.13 72.00'
+Tp2:
+  MATERIAL: oak_door
+  POSITION-X: 5
+  POSITION-Y: 3
+  NAME: '&6&lВыбор Карт'
+  LORE:
+    - '&6Нажми для телепорта'
+  ACTIONS:
+    - 'tp @s -3.550 -60 86.390'
+Tp3:
+  MATERIAL: bow
+  POSITION-X: 6
+  POSITION-Y: 3
+  NAME: '&6&lСтрельбище'
+  LORE:
+    - '&6Нажми для телепорта'
+  ACTIONS:
+    - 'tp @s 3.493 -59 67.523'
+
+Sbros:
+  MATERIAL: gold_block
+  POSITION-X: 4
+  POSITION-Y: 2
+  NAME: '&e&lСброс'
+  LORE:
+    - '&7Выбери карту'
+  ACTIONS:
+    - 'fill -151 -60 87 -151 -60 87 minecraft:redstone_block'

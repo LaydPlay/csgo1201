@@ -1,0 +1,297 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  name: '&8&lВыбор Класса'
+  rows: 3
+  commands:
+    - 'classmenu'
+  auto-refresh: 5
+  open-actions:
+    # Сброс только тех скорбордов, которые были указаны.
+    - 'console: scoreboard players reset {player} Victor'
+    - 'console: scoreboard players reset {player} Freeman'
+    - 'console: scoreboard players reset {player} Balance'
+    - 'console: scoreboard players reset {player} Sniper'
+    - 'console: scoreboard players reset {player} Sniperg'    
+    - 'console: scoreboard players reset {player} Assault'
+    - 'console: scoreboard players reset {player} Scout'
+    - 'console: scoreboard players reset {player} Demoman'
+    - 'console: scoreboard players reset {player} Heavy'
+    - 'console: scoreboard players reset {player} Stalker'
+    - 'console: scoreboard players reset {player} Panzerfaust'
+    - 'console: scoreboard players reset {player} SpyT1000'
+    - 'console: scoreboard players reset {player} SniperClassic'
+    - 'console: scoreboard players reset {player} Sniper2'
+    - 'console: scoreboard players reset {player} Pyro'
+    - 'console: scoreboard players reset {player} mcibyd'
+    - 'console: scoreboard players reset {player} Dash'
+    - 'console: scoreboard players reset {player} AntMan'
+    - 'console: scoreboard players reset {player} Gabriel'
+    - 'console: scoreboard players reset {player} OlegLashko'
+    - 'console: scoreboard players reset {player} 308Crusader'
+    - 'console: scoreboard players reset {player} knife'
+    - 'console: scoreboard players reset {player} Wolfenstein'
+    - 'console: scoreboard players reset {player} biba'
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+victor:
+  MATERIAL: chest
+  POSITION-X: 1
+  POSITION-Y: 1
+  NAME: '&f&lVictor'
+  LORE:
+    - '&7Выбери класс &fVictor'
+    - '&7Наслаждайтесь!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Victor 1'
+
+mrfreeman:
+  MATERIAL: chest
+  POSITION-X: 2
+  POSITION-Y: 1
+  NAME: '&f&lMr Freeman'
+  LORE:
+    - '&7Выбери класс &fMr Freeman'
+    - '&7Готовьтесь к битве!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Freeman 1'
+
+balance:
+  MATERIAL: chest
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '&f&lBalance'
+  LORE:
+    - '&7Выбери класс &fBalance'
+    - '&7Ищите равновесие!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Balance 1'
+
+sniper:
+  MATERIAL: chest
+  POSITION-X: 4
+  POSITION-Y: 1
+  NAME: '&f&lSniper'
+  LORE:
+    - '&7Выбери класс &fSniper'
+    - '&7Точное попадание!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Sniper 1'
+
+
+assault:
+  MATERIAL: chest
+  POSITION-X: 6
+  POSITION-Y: 1
+  NAME: '&f&lAssault'
+  LORE:
+    - '&7Выбери класс &fAssault'
+    - '&7Вперёд в бой!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Assault 1'
+
+scout:
+  MATERIAL: chest
+  POSITION-X: 1
+  POSITION-Y: 2
+  NAME: '&f&lScout'
+  LORE:
+    - '&7Выбери класс &fScout'
+    - '&7Разведчик на месте!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Scout 1'
+
+panzerfaust:
+  MATERIAL: chest
+  POSITION-X: 2
+  POSITION-Y: 2
+  NAME: '&f&lPanzerfaust'
+  LORE:
+    - '&7Выбери класс &fDemoman (Panzerfaust)'
+    - '&7Ракетный удар!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Panzerfaust 1'
+
+Heavy:
+  MATERIAL: chest
+  POSITION-X: 3
+  POSITION-Y: 2
+  NAME: '&f&lHeavy'
+  LORE:
+    - '&7Выбери класс &fHeavy'
+    - '&7Тяжелые яйца'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Heavy 1'
+
+stalker:
+  MATERIAL: chest
+  POSITION-X: 4
+  POSITION-Y: 2
+  NAME: '&f&lStalker'
+  LORE:
+    - '&7Выбери класс &fStalker'
+    - '&7Тень на поле!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Stalker 1'
+
+demoman:
+  MATERIAL: chest
+  POSITION-X: 3
+  POSITION-Y: 3
+  NAME: '&f&lDemoman'
+  LORE:
+    - '&7Выбери класс &fDemoman1'
+    - '&7Взорви всё!'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Demoman 1'
+
+t1000:
+  MATERIAL: chest
+  POSITION-X: 6
+  POSITION-Y: 2
+  NAME: '&f&lSpyT1000'
+  LORE:
+    - '&7Выбери класс &fSpyT1000'
+    - '&7Поговаривают что на нём играет часто некий Mantaro'
+  ACTIONS:
+    - 'console: scoreboard players set {player} SpyT1000 1'
+    
+Pero:
+  MATERIAL: chest
+  POSITION-X: 1
+  POSITION-Y: 3
+  NAME: '&6&lPyro'
+  LORE:
+    - '&7Я горячий мексиканец, Выходи со мной та танец'
+    - '&cУмойся моей струйкой'
+  ACTIONS:
+    - 'console: scoreboard players set {player} Pyro 1'
+    
+MCIbyD:
+ MATERIAL: chest
+ POSITION-X: 2
+ POSITION-Y: 3
+ NAME: '&f&lMCIbyD'
+ LORE:
+    - '&7Выберите класс "Дитя илона маска"'
+    - '&cКТО МЕНЯ РОДИЛ!!!'
+ ACTIONS:
+    - 'console: scoreboard players set {player} mcibyd 1'
+    
+Echo:
+ MATERIAL: chest
+ POSITION-X: 4
+ POSITION-Y: 3
+ NAME: '&d&lEcho&b&lDash'
+ LORE:
+    - '&7Шустрый малый"'
+    - '&cОпа исчез'
+ ACTIONS:
+    - 'console: scoreboard players set {player} Dash 1'
+    
+AntMan:
+ MATERIAL: chest
+ POSITION-X: 5
+ POSITION-Y: 3
+ NAME: '&9AntMan'
+ LORE:
+    - '&7Я как член"'
+    - '&cИногда маленький и иногда чуть больше чем маленький'
+ ACTIONS:
+    - 'console: scoreboard players set {player} AntMan 1'
+Gabriel:
+ MATERIAL: chest
+ POSITION-X: 6
+ POSITION-Y: 3
+ NAME: '&4&k00&f&lGabriel&4&k00'
+ LORE:
+    - '&7Прибыл прямиком из &cUltraKill&7, Ангел смерти"'
+    - '&cРезня'
+ ACTIONS:
+    - 'console: scoreboard players set {player} Gabriel 1'
+    
+308:
+ MATERIAL: chest
+ POSITION-X: 5
+ POSITION-Y: 1
+ NAME: '&eКрестоносец &c308 &9Калибра'
+ LORE:
+    - '&5Крестоносец .308 калибра — ходячий антиквариат с миниганом. Молится, стреляет, перегревается. Не отличает еретика от дерева — всё сносит. Его броня скрипит, как совесть, а очередь длится дольше переговоров.
+"'
+    - '&cРАТАТАТАТАТАТАТААТАТАТАТАТА'
+ ACTIONS:
+    - 'console: scoreboard players set {player} 308Crusader 1'
+
+OlegLashko:
+ MATERIAL: chest
+ POSITION-X: 7
+ POSITION-Y: 1
+ NAME: '&9&lОлег Ляшко'
+ LORE:
+    - '&7Геть звiдси паразити'
+    - '&cНа вила!!!'
+ ACTIONS:
+    - 'console: scoreboard players set {player} OlegLashko 1'
+
+SniperG:
+ MATERIAL: chest
+ POSITION-X: 7
+ POSITION-Y: 2
+ NAME: '&f&lInitial G'
+ LORE:
+    - '&7Я где то это видел? но где ?'
+    - '&c*Снайпер для зумеров, дрочите*'
+ ACTIONS:
+    - 'console: scoreboard players set {player} Sniperg 1'
+
+Knife:
+ MATERIAL: chest
+ POSITION-X: 7
+ POSITION-Y: 3
+ NAME: '&9&lKnife'
+ LORE:
+    - '&7Пришёл с ножом на перестрелку?'
+    - '&eНожи детям не игрушка'
+ ACTIONS:
+    - 'console: scoreboard players set {player} knife 1'
+    
+Wolfenstein:
+ MATERIAL: chest
+ POSITION-X: 8
+ POSITION-Y: 1
+ NAME: '&3&lWolfenstein'
+ LORE:
+    - '&7Этот тип десителетиями тёр ноги ноги об ковёр, теперь он готов к бою'
+    - '&eРаз Два Разряд Nigga'
+ ACTIONS:
+    - 'console: scoreboard players set {player} Wolfenstein 1'
+
+back-button:
+  POSITION-X: 5
+  POSITION-Y: 2
+  MATERIAL: barrier
+  NAME: '&c⏪ Назад'
+  LORE:
+    - ''
+    - '&7Вернуться в главное меню.'
+  ACTIONS:
+    - 'open: Menu.yml'
+    
+Biba:
+ MATERIAL: chest
+ POSITION-X: 9
+ POSITION-Y: 1
+ NAME: '&3&lbiba'
+ LORE:
+    - '&7простой мужик'
+    - '&eда это просто чел'
+ ACTIONS:
+    - 'console: scoreboard players set {player} biba 1'
